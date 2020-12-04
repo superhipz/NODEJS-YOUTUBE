@@ -1,0 +1,21 @@
+{
+  "name": "work",
+  "version": "1.0.0",
+  "description": "",
+  "main": "GET-SERVER.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pm2": "^4.5.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "pug": "^2.0,3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx pm2 start 55.js --watch "
+  },
+  "author": "",
+  "license": "ISC"
+  
+}
